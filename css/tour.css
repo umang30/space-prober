@@ -1,0 +1,22 @@
+.tour{
+    display: none;
+    overflow-y: scroll;
+}
+body{
+    display: block;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+video{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
